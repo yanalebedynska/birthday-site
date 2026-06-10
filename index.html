@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday, my love</title>
+  <meta name="description" content="Birthday website made with love" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="floating-layer" aria-hidden="true">
+    <span class="float f1">♡</span><span class="float f2">✦</span><span class="float f3">♡</span><span class="float f4">✧</span>
+  </div>
+  <nav class="topbar">
+    <a href="#letter">letter</a>
+    <a href="#moments">photos</a>
+    <a href="#last-birthday">last birthday</a>
+    <a href="#flowers">flowers</a>
+  </nav>
+
+  <header class="hero section" id="home">
+    <img class="animal animal-dog" src="assets/animals/frenchie-sticker.png" alt="cute french bulldog" />
+    <div class="hero-copy reveal">
+      <p class="eyebrow">for the sweetest birthday boy</p>
+      <div class="hero-title-stage">
+        <h1 class="hero-title-wrap"><img class="hero-title-image" src="assets/hero-title.png" alt="Happy Birthday my love" /><span class="visually-hidden">Happy Birthday, my love</span></h1>
+        <img class="hero-balloons" src="assets/decor/blue-balloons.png" alt="" aria-hidden="true" />
+      </div>
+      <p class="hero-text">цей маленький сайт створений з усіх наших моментів, квітів, обіймів і спогадів.</p>
+      <a class="primary-link hero-letter-link" href="#letter">open your letter</a>
+    </div>
+    <div class="hero-card reveal delay-1">
+      <div class="soft-polaroid hero-photo"><img src="assets/photos/couple/photo_7_2026-06-10_16-43-36.jpg" alt="our photo"></div>
+      <img class="hero-card-capy" src="assets/animals/capybara-sticker.png" alt="cute capybara" />
+      <div class="mini-note">made with love ♡</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section letter-section" id="letter">
+      <div class="section-heading reveal">
+        <p class="eyebrow">open me</p>
+        <h2>Лист для тебе</h2>
+        <p>Натисни на конверт, і він відкриється.</p>
+      </div>
+      <div class="envelope-wrap reveal delay-1">
+        <button class="envelope" id="envelopeBtn" aria-label="Open letter">
+          <span class="env-back"></span>
+          <span class="env-letter">
+            <strong>to my love</strong>
+            <em>tap to open</em>
+          </span>
+          <span class="env-front"></span>
+          <span class="env-flap"></span>
+          <span class="env-seal">♡</span>
+        </button>
+      </div>
+      <div class="letter-paper" id="letterPaper" aria-live="polite">
+        <button class="close-letter" id="closeLetter" aria-label="Close letter">×</button>
+        <p class="letter-date">Happy Birthday, my love</p>
+        <h3>Лист для тебе</h3>
+        <div class="letter-text final-letter">
+          <p>Коханий, цей лист і весь цей сайт я робила для тебе, віддаючи всю свою любов і тепло, щоб з ніч з 10 на 11 червня, ти міг відчути хоча б так мою присутність і відчути моральний зв&#x27;язок між нашими серденьками. </p>
+          <p>Не віриться мені, що час летить так швидко, що це вже другий твій день народження, який я святкую разом з тобою - найкращою людиною, яку я коли-небудь зустрічала. Ми йшли весь цей час разом пліч-о-пліч, ми проходили різні перешкоди, ми проживали найкращі наші миті, створювали свої історію сторінка за сторінкою, боролись за кожен грам нашого щастя. Знаєш, з часом я зрозуміла, що всі перешкоди, які ми проходимо, нас тільки зближують, роблять нас все більш спорідненими і вибудовують нас, як одне ціле.</p>
+          <p>Я хочу, щоб ти знав, що кращого за тебе бути не може. Кожен твій дотик для мене - це любов переплетена з ніжністю, яка проходить крізь все моє тіло; кожен твій погляд - це струм, який наповнює моє життя; кожне тепле слово - це цеглинка, яка вибудовує мою внутрішню вежу впевненості. Ти, саме ти - не просто &quot;класна капібарка&quot;, ти - &quot;найкраща капібарка, яку тільки міг послати мені Бог&quot;. </p>
+          <p>Я дякую тобі просто за те, що ти є; за те, що ти є в мене. Я тебе надзвичайно люблю, люблю всього тебе з голови до ніг, твою душу і серце, наповнене ніжністю і коханням. Ти завжди будеш для мене моїм плечем, на яке я можу спертись. </p>
+          <p>Я кохаю тебе - безмежно і назавжди ...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section memories" id="moments">
+      <div class="section-heading reveal">
+        <p class="eyebrow">our little universe</p>
+        <h2>Наші улюблені моменти</h2>
+        
+      </div>
+      <div class="photo-grid couple-grid" id="coupleGrid"></div>
+    </section>
+
+    <section class="section birthday-memory" id="last-birthday">
+      <div class="birthday-panel reveal">
+        <div>
+          <p class="eyebrow">one year ago</p>
+          <h2>Давай згадаємо, як ми святкували твій минулий день народження разом</h2>
+          
+        </div>
+        <img class="panel-animal" src="assets/animals/frenchie-sticker.png" alt="french bulldog sticker">
+      </div>
+      <div class="timeline" id="birthdayGrid"></div>
+    </section>
+
+    <section class="section flowers-section" id="flowers">
+      <div class="section-heading reveal">
+        <p class="eyebrow">every flower you gave me</p>
+        <h2>Квіти, які ти мені дарував</h2>
+        <p>Це альбомчик, де зібрані всі твої букетики. Адже кожна квіточка, це прояв твоєї любові.</p>
+      </div>
+      <div class="flower-album reveal delay-1">
+        <button class="album-arrow" id="prevFlower" aria-label="Previous bouquet page">‹</button>
+        <div class="book" id="flowerBook" aria-live="polite">
+          <div class="book-spine"></div>
+          <div class="book-page left-page">
+            <div class="page-kicker">bouquet memories</div>
+            <div class="album-page-grid" id="flowerPageLeft"></div>
+          </div>
+          <div class="book-page right-page">
+            <div class="page-kicker">made of love</div>
+            <div class="album-page-grid" id="flowerPageRight"></div>
+          </div>
+        </div>
+        <button class="album-arrow" id="nextFlower" aria-label="Next bouquet page">›</button>
+      </div>
+      <p class="album-counter" id="flowerCounter"></p>
+    </section>
+
+    <section class="section reasons">
+      <div class="reasons-card reveal">
+        <img src="assets/animals/capybara-sticker.png" alt="capybara" />
+        <div>
+          <p class="eyebrow">tiny love notes</p>
+          <h2>Маленькі причини, чому ти особливий</h2>
+          <p id="reasonText">ти робиш навіть звичайні дні теплішими.</p>
+          <button class="primary-link button-reset" id="reasonBtn">show another one</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img id="lightboxImg" alt="photo preview" />
+  </div>
+
+  <footer>
+    <p>with love, today and always ♡</p>
+  </footer>
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+window.SITE_PHOTOS = {
+  "couple": [
+    "assets/photos/couple/photo_1_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_2_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_3_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_4_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_5_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_6_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_7_2026-06-10_16-43-36.jpg",
+    "assets/photos/couple/photo_13_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_12_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_10_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_2_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_11_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_8_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_9_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_7_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_6_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_5_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_4_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_1_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_3_2026-06-10_17-27-49.jpg",
+    "assets/photos/couple/photo_extra_scarf_2026-06-10.png"
+  ],
+  "flowers": [
+    "assets/photos/flowers/photo_16_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_15_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_14_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_7_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_13_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_6_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_12_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_3_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_11_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_1_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_10_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_9_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_8_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_5_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_4_2026-06-10_17-23-39.jpg",
+    "assets/photos/flowers/photo_2_2026-06-10_17-23-39.jpg"
+  ],
+  "lastBirthday": [
+    "assets/photos/last-birthday/photo_6_2026-06-10_17-29-58.jpg",
+    "assets/photos/last-birthday/photo_5_2026-06-10_17-29-58.jpg",
+    "assets/photos/last-birthday/photo_4_2026-06-10_17-29-58.jpg",
+    "assets/photos/last-birthday/photo_3_2026-06-10_17-29-58.jpg",
+    "assets/photos/last-birthday/photo_1_2026-06-10_17-29-58.jpg",
+    "assets/photos/last-birthday/photo_2_2026-06-10_17-29-58.jpg",
+    "assets/photos/last-birthday/photo_7_added_cinema-chair.png",
+    "assets/photos/last-birthday/photo_8_added_cinema-screen.png"
+  ]
+};
