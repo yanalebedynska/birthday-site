@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" role="img" aria-label="french bulldog sticker">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="9" flood-color="#5f7480" flood-opacity=".22"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M39 80 18 18c43 2 72 34 83 70z" fill="#fff" stroke="#fff" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M221 80 242 18c-43 2-72 34-83 70z" fill="#fff" stroke="#fff" stroke-width="20" stroke-linejoin="round"/>
+    <ellipse cx="130" cy="138" rx="90" ry="78" fill="#fff" stroke="#fff" stroke-width="24"/>
+    <path d="M39 80 18 18c43 2 72 34 83 70z" fill="#20242a"/>
+    <path d="M221 80 242 18c-43 2-72 34-83 70z" fill="#20242a"/>
+    <path d="M52 42c24 9 39 26 48 51" fill="none" stroke="#f6cbc9" stroke-width="16" stroke-linecap="round" opacity=".9"/>
+    <path d="M208 42c-24 9-39 26-48 51" fill="none" stroke="#f6cbc9" stroke-width="16" stroke-linecap="round" opacity=".9"/>
+    <ellipse cx="130" cy="138" rx="90" ry="78" fill="#f5f0eb"/>
+    <path d="M84 70c-40 25-54 87-20 128 18 22 45 29 66 29V101c-18-7-30-20-46-31z" fill="#242830"/>
+    <path d="M176 70c40 25 54 87 20 128-18 22-45 29-66 29V101c18-7 30-20 46-31z" fill="#f5f0eb" opacity=".9"/>
+    <circle cx="92" cy="130" r="11" fill="#15171b"/>
+    <circle cx="168" cy="130" r="11" fill="#15171b"/>
+    <circle cx="96" cy="126" r="3.5" fill="#fff"/>
+    <circle cx="172" cy="126" r="3.5" fill="#fff"/>
+    <ellipse cx="130" cy="153" rx="20" ry="15" fill="#15171b"/>
+    <path d="M130 169c-10 17-32 23-51 13" fill="none" stroke="#15171b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M130 169c10 17 32 23 51 13" fill="none" stroke="#15171b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M94 217c-36 5-55 21-60 37h192c-5-16-25-32-60-37" fill="#f5f0eb"/>
+    <path d="M101 218c10 16 48 16 58 0" fill="#f6cbc9" opacity=".85"/>
+    <path d="M78 220c20 11 45 12 52 12 35 0 59-9 70-18" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  </g>
+</svg>
